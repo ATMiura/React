@@ -1,0 +1,42 @@
+.note {
+    position: relative;
+}
+.note:hover .note__actions {
+    display: flex;
+}
+.note__title {
+
+}
+.note__money {
+
+}
+.note__address {
+
+}
+.note__time {
+
+}
+.note__message {
+
+}
+.note__actions {
+    position: absolute;
+    top: .75rem;
+    right: 1.25rem;
+
+    display: none;
+    align-items: center;
+
+}
+.note__action {
+    cursor: pointer;
+    border: 0;
+    box-shadow: none;
+    background: #fff;
+}
+.note__edit {
+    margin-right: 10px;
+}
+.note__remove {
+
+}
